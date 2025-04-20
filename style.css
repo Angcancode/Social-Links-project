@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  background-color: hsl(0, 0%, 8%);
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  padding: 40px;
+  text-align: center;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 8px;
+}
+
+img {
+  border-radius: 50%;
+  width: 90px;
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 28px;
+  margin-top: 15px;
+}
+
+h2 {
+  font-size: 16px;
+  color: hsl(75, 94%, 57%);
+  margin-top: 10px;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+.link-card {
+  font-weight: 600;
+  background-color: hsl(0, 0%, 20%);
+  padding: 15px 0;
+  border-radius: 8px;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
